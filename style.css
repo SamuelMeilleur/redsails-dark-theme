@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(35,33,38);
+}
+
+nav #search {
+  height: unset;
+  background-color: rgb(45,43,48);
+  border: none;
+  border-radius: 10px;
+}
+
+nav #search input {
+  height: 1.75rem;
+  width: 10rem;
+  border-radius: 10px;
+  background: rgb(45,43,48);
+  padding: 0.25rem 0.75rem;
+  color: white;
+}
+
+main,
+main .author,
+nav .sections summary {
+  color: white;
+}
+
+nav .sections a {
+  padding: 0 1rem 0.5rem 1rem;
+  background-color: rgb(40,38,43);
+}
+
+nav .sections details[open] {
+  height: fit-content;
+  background-color: rgb(40,38,43);
+  border-radius: 8px;
+  margin-top: -0.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.5rem;
+}
+
+hr {
+  border-bottom: 1px solid white;
+}
+
+.floater {
+  color: white;
+  background-color: rgb(35,33,38);
+  box-shadow: 0 0 2px #ccc;
+}

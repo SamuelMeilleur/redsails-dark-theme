@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "RedSails Dark Theme",
+  "version": "1.0.1",
+
+  "description": "Dark theme for redsails.org",
+
+  "icons": {
+    "48": "icons/icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://redsails.org/*"],
+      "css": ["style.css"]
+    }
+  ]
+}
